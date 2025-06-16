@@ -9,9 +9,6 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-.body {
-    border: 2px solid green;
-}
 
 .header {
     background-color: #1F2937;
@@ -46,5 +43,45 @@ ul li {
 li a {
     text-decoration: none;
     color: #F9FAF8;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1F2937;
+    align-items: center;
+    padding: 48px;
+}
+
+.text h1 {
+    font-size: 48px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    flex-basis: 400px;
+    gap: 20px;
+}
+
+.image {
+    display: flex;
+}
+
+.image img {
+    width: 400px;
+}
+
+.text button {
+    border: solid 1px #1F2937;
+    align-self: flex-start;
+    padding: 10px 40px;
+    flex-basis: 20px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: 600;
+    border-radius: 12px;
 }
 
