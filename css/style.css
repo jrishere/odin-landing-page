@@ -50,7 +50,7 @@ li a {
     color: #F9FAF8;
 }
 
-li a:hover {
+.nav li a:hover {
     color: #8d8d8d;
     font-size: 17px;
 }
@@ -99,7 +99,7 @@ li a:hover {
     border-radius: 12px;
 }
 
-button:hover {
+.text button:hover {
     background-color: #89b4fa;
     cursor: pointer;
     padding: 12px 42px;
@@ -174,4 +174,55 @@ button:hover {
     font-size: 28px;
 }
 
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 80px;
+}
 
+.call-to-action .container {
+    display: flex;
+    flex-basis: 800px;
+    background-color: #3882F6;
+    justify-content: space-evenly;
+    padding: 40px;
+    border-radius: 12px;
+}
+
+.button {
+    align-self: center;
+}
+
+.text h2 {
+    font-size: 22px;
+}
+
+.text p {
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.button button{
+    padding: 10px 40px;
+    background-color: #3882F6;
+    border-radius: 12px;
+    border-color: white;
+    color: #fff;
+    font-weight: 600;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer div 
+{
+    flex: 1;
+    text-align: center;
+    color: white;
+}
